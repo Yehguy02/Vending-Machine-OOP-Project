@@ -433,8 +433,9 @@ int main() {
     VendingMachine vm;
     string user;
 
-    cout << "- - Welcome to this vending machine\n- - Type 'user' to start purchasing items\n- - Type 'admin' to enter admin mode\n> ";
+    cout << "- - Welcome to the vending machine\n- - Type 'user' to start purchasing items\n- - Type 'admin' to enter admin mode\n> ";
     cin >> user;
+ 
     if (user == "admin") {
         vm.AdminMode();
     } else {
